@@ -25,14 +25,7 @@ import java.util.TimerTask;
 import static framework.util.RegularUtils.emojiFilters;
 
 /**
- * Description: 搜索组件
- * 1、默认情况：不带返回按钮和搜索按钮，软键盘默认不弹出
- * 2、在布局中，如果需要带返回按钮和搜索按钮，则需设置isShowKeyBoard和isShowBackAndSearchButton
- * 3、如果是公共布局，则需要单独在自己的页面设置hint值
- * 4、如果不是公共布局，则hint值可以在布局中
- * Author: yi.zhang
  * Time: 2016/10/20 0012 15:15
- * E-mail: yi.zhang@rato360.com
  */
 public class SearchComponent extends LinearLayout implements EdtInterface, View.OnKeyListener {
 
